@@ -4,7 +4,6 @@ phases:
   build:
     commands:
       - echo Entered the build phase...
-      - cd eureka
       - mvn clean package
   post_build:
     commands:
